@@ -12,7 +12,7 @@ const getAssetPath = (resourceFilename) => {
   return path.join(EXTRA_RESOURCES_PATH, resourceFilename);
 };
 
-const image = nativeImage.createFromPath(getAssetPath('trayIcons/active-light.png'));
+const image = nativeImage.createFromPath(getAssetPath('trayIcons/active-dark.png'));
 console.log(image)
 
 app.whenReady().then(() => {
