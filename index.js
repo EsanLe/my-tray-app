@@ -2,6 +2,8 @@ const { nativeImage, app, Tray, Menu } = require('electron')
 const path = require('path')
 let tray = null
 
+Menu.setApplicationMenu(false)
+
 const EXTRA_RESOURCES_PATH = app.isPackaged
   ? path.join(process.resourcesPath, 'extraResources')
   : path.join(__dirname, 'extraResources');  // Your relative path may be different!
