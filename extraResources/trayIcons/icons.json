@@ -1,0 +1,62 @@
+{
+    "noQueueInvMax": "res/trayIcons/noQueue-max-light.png",
+    "mixedInvMax": "res/trayIcons/mixed-max-light.png",
+    "completeInvMax": "res/trayIcons/complete-max-light.png",
+    "erroredInvMax": "res/trayIcons/errored-max-light.png",
+    "activeInvMax": "res/trayIcons/active-max-light.png",
+    "updateInvMax": "res/trayIcons/update-max-light.png",
+    "activeMax": "res/trayIcons/active-max-dark.png",
+    "completeMax": "res/trayIcons/complete-max-dark.png",
+    "mixedMax": "res/trayIcons/mixed-max-dark.png",
+    "erroredMax": "res/trayIcons/errored-max-dark.png",
+    "updateMax": "res/trayIcons/update-max-dark.png",
+    "noQueueInv": {
+        "16": "res/trayIcons/noQueue-light@1x.png",
+        "32": "res/trayIcons/noQueue-light@2x.png"
+    },
+    "noQueueMax": "res/trayIcons/noQueue-max-dark.png",
+    "activeInv": {
+        "16": "res/trayIcons/active-light@1x.png",
+        "32": "res/trayIcons/active-light@2x.png"
+    },
+    "completeInv": {
+        "16": "res/trayIcons/complete-light@1x.png",
+        "32": "res/trayIcons/complete-light@2x.png"
+    },
+    "erroredInv": {
+        "16": "res/trayIcons/errored-light@1x.png",
+        "32": "res/trayIcons/errored-light@2x.png"
+    },
+    "mixedInv": {
+        "16": "res/trayIcons/mixed-light@1x.png",
+        "32": "res/trayIcons/mixed-light@2x.png"
+    },
+    "updateInv": {
+        "16": "res/trayIcons/update-light@1x.png",
+        "32": "res/trayIcons/update-light@2x.png"
+    },
+    "noQueue": {
+        "16": "res/trayIcons/noQueue-dark@1x.png",
+        "32": "res/trayIcons/noQueue-dark@2x.png"
+    },
+    "complete": {
+        "16": "res/trayIcons/complete-dark@1x.png",
+        "32": "res/trayIcons/complete-dark@2x.png"
+    },
+    "active": {
+        "16": "res/trayIcons/active-dark@1x.png",
+        "32": "res/trayIcons/active-dark@2x.png"
+    },
+    "mixed": {
+        "16": "res/trayIcons/mixed-dark@1x.png",
+        "32": "res/trayIcons/mixed-dark@2x.png"
+    },
+    "errored": {
+        "16": "res/trayIcons/errored-dark@1x.png",
+        "32": "res/trayIcons/errored-dark@2x.png"
+    },
+    "update": {
+        "16": "res/trayIcons/update-dark@1x.png",
+        "32": "res/trayIcons/update-dark@2x.png"
+    }
+}

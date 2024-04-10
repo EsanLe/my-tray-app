@@ -1,0 +1,32 @@
+{
+  "name": "my-tray-app",
+  "version": "1.0.0",
+  "description": "GPT: build a electron app only in tray, and dist to macos, windows and linux",
+  "main": "index.js",
+  "scripts": {
+    "start": "electron .",
+    "dist": "npx electron-builder -mw"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^29.1.0",
+    "electron-builder": "^24.13.3"
+  },
+  "build": {
+    "appId": "your.app.id",
+    "mac": {
+      "target": "dmg"
+    },
+    "win": {
+      "target": "nsis"
+    },
+    "linux": {
+      "target": "AppImage"
+    },
+    "extraResources": [
+      "./extraResources/**"
+    ]
+  }
+}
